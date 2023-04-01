@@ -83,7 +83,7 @@ const holdScore = function () {
         .classList.add('player--winner');
       document.querySelector(`#score--${activePlayer}`).textContent =
         scores[`${activePlayer}`];
-      document.querySelector(`.current--${activePlayer}`).textContent = 0;
+      //   document.querySelector(`.current--${activePlayer}`).textContent = 0;
 
       // newGame();
     } else {
